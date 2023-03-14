@@ -1,2 +1,2 @@
 #!/bin/bash
-bc <<< "scale=2; $POWER / $DIVIDE" | printf "%.2f\n"  
+$(awk "BEGIN {printf "%d", $POWER/$DIVIDE}") 
