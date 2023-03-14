@@ -1,2 +1,2 @@
 #!/bin/bash
-$(awk "BEGIN {printf "%d", $POWER/$DIVIDE}") 
+echo $(($POWER / $DIVIDE))
