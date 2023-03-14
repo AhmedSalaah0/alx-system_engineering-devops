@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ${BIN2DEC[$BINARY]}
+printf "%d\n" ${B2D[$BINARY]}
